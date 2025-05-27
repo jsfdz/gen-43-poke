@@ -1,0 +1,40 @@
+.item {
+  background-color: #222a;
+  padding: 1em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item__img {
+  width: 145px;
+  height: 145px;
+}
+
+.item__id {
+  margin-top: .75em;
+  color: #444;
+}
+
+.item__name {
+  color: #fff;
+  margin: 0;
+  text-transform: capitalize;
+  margin-bottom: .75em;
+}
+
+.item__types {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5em;
+}
+
+.item__type {
+  color: #fff;
+  padding: .5em 1em;
+  background-color: #00000050;
+  border-radius: 1em;
+}

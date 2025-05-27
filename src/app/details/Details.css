@@ -1,0 +1,29 @@
+.details {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.details__container {
+  background-color: #222a;
+  width: 100%;
+  max-width: 900px;
+  padding: 4em 2.5em;
+}
+
+.details__name {
+  text-transform: capitalize;
+  font-size: var(--text-2xl);
+  margin-bottom: 0;
+}
+
+.details__id {
+  color: #444;
+  font-size: var(--text-lg);
+  font-weight: 700;
+  margin: 0;
+  margin-top: .25em;
+  margin-bottom: 1em;
+}

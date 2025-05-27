@@ -1,0 +1,28 @@
+.pagination {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-block: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .25em;
+}
+
+.pagination__info {
+  color: #999;
+}
+
+.pagination__btns {
+  display: flex;
+  gap: 1em;
+}
+
+.pagination__btn {
+  background-color: #222a;
+}
